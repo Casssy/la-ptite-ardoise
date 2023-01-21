@@ -1,0 +1,323 @@
+/* General Styles*/
+body{
+  background-color: #BC8F8F;
+  text-align: center;
+}
+  
+h1, h3{
+  font-family: 'Merienda', cursive;
+  color: #321A18;
+}
+  
+p{
+  font-family: 'Montserrat', sans-serif;
+}
+  
+.container-fluid{
+  padding: 4% 4% 4% 3%;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+/* Sections */
+#heading, #footer{
+  background-color: #4e598c;
+}
+  
+.white-section{
+  background-color: white;
+  padding: 4% 4% 1%;
+}
+  
+.colored-section{
+  padding: 4% 4%;
+}
+  
+/* Heading */
+#heading{
+  color: white;
+}
+  
+/* Nav bar */
+.navbar-brand{
+  color: #b5b5b5;
+  font-family: 'Merienda', cursive;
+  font-size: 2.5rem;
+  padding-left: 4.5%;
+}
+  
+#logo{
+  position: absolute;
+}  
+  
+.nav-item{
+  padding: 0 18px;
+}
+  
+.nav-link{
+  color: #b5b5b5;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1rem;
+  text-align: right;
+}
+  
+/* accueil section */
+.acc-section{
+  padding-top: 17%;
+  padding-bottom: 15%;
+}
+  
+.mot-accueil, .tel{
+  text-align: left;
+  color: #321A18;
+  width: 50%;
+  position: relative;
+  bottom: 3rem;
+  margin-left: 3%;
+}
+  
+.mot-accueil{
+  font-size: 1.5rem;
+  margin-bottom: 0.5%;
+}
+  
+.tel{
+  font-size: 1.1rem;
+}
+  
+.img-resto{
+  width: 35%;
+  border-radius: 100%;
+  position: relative;
+  bottom: 10.5rem;
+  right: 3rem;
+  float: right;
+  margin: 0;
+}
+  
+.btn {
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  -webkit-box-shadow: 0px 2px 3px #666666;
+  -moz-box-shadow: 0px 2px 3px #666666;
+  box-shadow: 0px 2px 3px #666666;
+  font-family: Arial;
+  color: #321A18;
+  font-size: 20px;
+  background: #bc8f8f;
+  padding: 15px 24px 15px 24px;
+  text-decoration: none;
+  margin: 2% 0 0 3%;
+  float: left;
+  position: relative;
+  bottom: 3rem;
+}
+  
+  .btn:hover {
+    background: #4E598C;
+    color:#b5b5b5;
+    text-decoration: none;
+  }
+  
+  .btn-icons{
+    padding: 0 5px 0 0;
+  }
+  
+/* Second section: menu */  
+.menu-section{
+  padding-bottom: 7%;
+}
+  
+.colored-section .btn{
+  background-color: white;
+  margin-bottom: 0;
+  margin-top: 8%;
+  position: relative;
+  left: 42%;
+}
+  
+.colored-section .btn:hover{
+  background: #4E598C;
+  color:#b5b5b5;
+  text-decoration: none;
+}
+  
+.carousel-img{
+  width: 45%;
+  border-radius: 20%;
+  margin-top: 3%;
+}
+  
+.carousel-text{
+  color:#b5b5b5;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+}
+  
+/* contact section  */
+.contact-section{
+  padding-bottom: 6%;
+}
+  
+.google-maps{
+  margin-top: 4%;
+  position: relative;
+  right: 8%;
+}
+  
+.contact-btn{
+  position: relative;
+  top: 30rem;
+  left: 32rem;
+}
+
+.horaire{
+  font-size: 1.2rem;
+  margin-top: 3%;
+}
+
+.horaire p{
+  margin: 0;
+  padding-top: 10px;
+}
+  
+.google-maps{
+  margin-left: 200px;
+}
+
+/* services section */
+.row{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2%;
+}
+.service-icon{
+  width: 30%;
+  color: #321A18;
+  margin: 40% auto 4%;
+}
+  
+.service-icon:hover{
+  color: #4E598C;
+}
+  
+.service-text{
+  font-size: 0.9rem;
+  color: #321A18;
+}
+  
+/* event section */
+.head-title{
+  margin-bottom: 7%;
+}
+  
+.text-event{
+  line-height: 1.5rem;
+}
+  
+.title-event{
+  margin-bottom: 2%;
+}
+  
+.paella-div, .concert-div{
+  width: 50%;
+  margin: 4% auto 10% auto;
+  text-align: left;
+}
+  
+.img-paella, .img-concert{
+  width: 30%;
+  border-radius: 100%;
+}
+  
+.img-paella{
+  float: left;
+  margin-right: 4%;
+}
+  
+.img-concert{
+  float: right;
+  margin-left: 4%;
+}
+
+  /* SCROLL BUTTON */
+.scroll-btn{
+  position: fixed;
+  width: 100%;
+  left: 50%;
+  bottom: 40px;
+  height: 20px;
+  font-size: 3rem;
+  z-index: 1;
+  cursor: pointer;
+  color: green;
+}
+  
+/* Footer */
+#footer{
+  color:#b5b5b5;
+  text-align: center;
+}
+
+#footer p{
+  font-size: 0.9rem;
+  text-align: center;  
+}
+
+.footer-icon{
+  margin: 20px 10px;
+  text-decoration: none;
+  color: #b5b5b5;
+}
+  
+.footer-icon:hover{
+  color: white;
+}
+  
+/* MEDIA QUERIES */
+@media screen and (max-width: 1000px){
+  .navbar-brand{
+      margin-left: 7%; 
+  }
+
+  .mot-accueil{
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  .img-resto{
+    position: relative;
+    bottom: 5%;
+  }
+
+  .acc-section .btn{
+    margin-left: 7%;
+  }
+
+  .menu-section{
+    padding-bottom: 18%;
+  }
+
+  .menu-section .btn{
+    margin-top: 13%;
+    margin-left: -3%;
+  } 
+}
+
+@media screen and (max-width: 700px){
+  .img-resto{
+    position: relative;
+  }
+
+  .menu-section .btn{
+    margin-top: 17%;
+    margin-left: -8%;
+  }
+}
