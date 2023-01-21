@@ -9,6 +9,6 @@ Live demo [here](https://sunny-crostata-9336e7.netlify.app/)
 
 ## Concepts in the project:
 - Web development
-- React
+- Framework
 - Static website
 - Responsive website
